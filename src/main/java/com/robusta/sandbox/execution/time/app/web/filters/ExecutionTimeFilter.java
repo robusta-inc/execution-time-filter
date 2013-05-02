@@ -24,11 +24,10 @@ public class ExecutionTimeFilter implements Filter {
         if(executionTimeCaptureEnabled) {
             stopWatch.stop();
             HttpServletRequest servletRequest = (HttpServletRequest) request;
-            LOGGER.info("Request: '{}' with method: '{} took '{}' ms to complete", servletRequest.getServletPath(), servletRequest.getMethod(), stopWatch.getTime());
+            LOGGER.info("Request: '{}' with method: '{}' took '{}' ms to complete", servletRequest.getServletPath(), servletRequest.getMethod(), stopWatch.getTime());
         }
     }
 
     public void init(FilterConfig config) throws ServletException {
-
     }
 }
