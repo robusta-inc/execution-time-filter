@@ -10,3 +10,4 @@ A simple servlet filter that computes application request servicing performance 
 </ul>
 3. Logging is done with INFO log level and if logging level is above INFO, performance calculation is bypassed.
 4. The filter code snippet is <a href="https://gist.github.com/robusta-inc/5506725">here</a>
+5. A sample app that uses the Execution Time Filer and displays the logged content is <a href="http://execution-time-filter.robusta.cloudbees.net/">here</a>
